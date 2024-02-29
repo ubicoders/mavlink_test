@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Avaliable msg id ranges: 228, 229, ... -->
+<!-- goto all.xml -->
+<mavlink>
+  <include>common.xml</include>
+  <!-- XML file for prototyping definitions for common.xml -->
+  <version>0</version>
+  <dialect>0</dialect>
+  <enums>
+  </enums>
+  <messages>
+    <!-- Transactions for parameter protocol -->
+    <message id="229" name="UBICODERS_CUSTOM">
+      <description>Ubicoders' custom message description.</description>
+      <field type="int32_t" name="odd_number">odd number</field>
+      <field type="int32_t" name="even_number">even number</field>
+    </message>
+    <message id="60000" name="UBICODERS_CUSTOM_2">
+      <description>Ubicoders' custom message description.</description>
+      <field type="uint8_t" name="some_value_0">some value 1</field>
+      <field type="uint8_t" name="some_value_1">some value 2</field>
+      <field type="float" name="some_float_value_0">some float value 0</field>
+    </message>
+  </messages>
+</mavlink>
