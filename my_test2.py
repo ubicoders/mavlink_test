@@ -1,3 +1,8 @@
+#=================================
+# Basic script to connect to PX4 and read mavlink messages.
+# Author: Hongyun Elliot Lee
+# Date: 11/29/22
+#=================================
 from pymavlink import mavutil
 from wakeup import wakeup
 

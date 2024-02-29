@@ -1,3 +1,9 @@
+#=================================
+# Basic script to connect to PX4 and read mavlink messages.
+# Author: Hongyun Elliot Lee
+# Date: 11/29/22
+#=================================
+
 from my_dialects import ubicoders_msgs
 
 mav = ubicoders_msgs.MAVLink(None)
